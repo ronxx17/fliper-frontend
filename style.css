@@ -1,0 +1,130 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+header {
+  background: #004aad;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+section {
+  padding: 3rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+h2 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.card h3 {
+  margin: 1rem 0 0.5rem;
+}
+.card p {
+  padding: 0 1rem 1rem;
+  font-size: 0.95rem;
+}
+.card button {
+  background: #004aad;
+  color: white;
+  border: none;
+  margin-bottom: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.client-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+.client-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.client-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.client-card p {
+  font-style: italic;
+  font-size: 0.95rem;
+}
+.client-card h4 {
+  margin: 0.5rem 0 0;
+  font-weight: 600;
+}
+.client-card small {
+  color: #666;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.row input {
+  flex: 1;
+  min-width: 250px;
+}
+form input, form button {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+form button {
+  background: #004aad;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#newsletter {
+  background: #e1ecf7;
+  text-align: center;
+}
+#newsletter form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 0;
+}
+#newsletter input {
+  border-radius: 8px 0 0 8px;
+  border-right: none;
+}
+#newsletter button {
+  border-radius: 0 8px 8px 0;
+}

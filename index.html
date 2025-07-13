@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flipr Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Company</h1>
+  </header>
+
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <div class="card-container" id="project-list"></div>
+  </section>
+
+  <section id="clients">
+    <h2>Happy Clients</h2>
+    <div class="client-container" id="client-list"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <div class="row">
+        <input type="text" name="fullName" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+      </div>
+      <div class="row">
+        <input type="text" name="mobile" placeholder="Mobile Number" required />
+        <input type="text" name="city" placeholder="City" required />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <form id="subscribe-form">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
